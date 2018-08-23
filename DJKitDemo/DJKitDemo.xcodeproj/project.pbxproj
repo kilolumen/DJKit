@@ -15,6 +15,9 @@
 		969E03E120B2A25700318106 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 969E03E020B2A25700318106 /* main.m */; };
 		969E03ED20B2A2FF00318106 /* DJWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 969E03EC20B2A2FF00318106 /* DJWeakProxy.m */; };
 		969E03F020B2A7ED00318106 /* DJFPSLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 969E03EF20B2A7ED00318106 /* DJFPSLabel.m */; };
+		96FFF9A9212E8BE000C00D7E /* NSString+SHA1.m in Sources */ = {isa = PBXBuildFile; fileRef = 96FFF9A8212E8BE000C00D7E /* NSString+SHA1.m */; };
+		96FFF9AC212E8C5400C00D7E /* NSDictionary+DJAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 96FFF9AB212E8C5400C00D7E /* NSDictionary+DJAddition.m */; };
+		96FFF9AF212E8C8500C00D7E /* NSArray+DJAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 96FFF9AE212E8C8500C00D7E /* NSArray+DJAddition.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +35,12 @@
 		969E03EC20B2A2FF00318106 /* DJWeakProxy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DJWeakProxy.m; sourceTree = "<group>"; };
 		969E03EE20B2A7ED00318106 /* DJFPSLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DJFPSLabel.h; sourceTree = "<group>"; };
 		969E03EF20B2A7ED00318106 /* DJFPSLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DJFPSLabel.m; sourceTree = "<group>"; };
+		96FFF9A7212E8BE000C00D7E /* NSString+SHA1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+SHA1.h"; sourceTree = "<group>"; };
+		96FFF9A8212E8BE000C00D7E /* NSString+SHA1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+SHA1.m"; sourceTree = "<group>"; };
+		96FFF9AA212E8C5400C00D7E /* NSDictionary+DJAddition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+DJAddition.h"; sourceTree = "<group>"; };
+		96FFF9AB212E8C5400C00D7E /* NSDictionary+DJAddition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+DJAddition.m"; sourceTree = "<group>"; };
+		96FFF9AD212E8C8500C00D7E /* NSArray+DJAddition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+DJAddition.h"; sourceTree = "<group>"; };
+		96FFF9AE212E8C8500C00D7E /* NSArray+DJAddition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+DJAddition.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +111,12 @@
 		96FFF9A3212D540100C00D7E /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				96FFF9A7212E8BE000C00D7E /* NSString+SHA1.h */,
+				96FFF9A8212E8BE000C00D7E /* NSString+SHA1.m */,
+				96FFF9AA212E8C5400C00D7E /* NSDictionary+DJAddition.h */,
+				96FFF9AB212E8C5400C00D7E /* NSDictionary+DJAddition.m */,
+				96FFF9AD212E8C8500C00D7E /* NSArray+DJAddition.h */,
+				96FFF9AE212E8C8500C00D7E /* NSArray+DJAddition.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -180,6 +195,9 @@
 				969E03D620B2A25500318106 /* ViewController.m in Sources */,
 				969E03E120B2A25700318106 /* main.m in Sources */,
 				969E03D320B2A25500318106 /* AppDelegate.m in Sources */,
+				96FFF9AF212E8C8500C00D7E /* NSArray+DJAddition.m in Sources */,
+				96FFF9AC212E8C5400C00D7E /* NSDictionary+DJAddition.m in Sources */,
+				96FFF9A9212E8BE000C00D7E /* NSString+SHA1.m in Sources */,
 				969E03F020B2A7ED00318106 /* DJFPSLabel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
